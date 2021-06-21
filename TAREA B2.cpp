@@ -19,3 +19,30 @@ int main()
 	
 	return 0;
 }
+
+//CONTRERAS MONTAÑO LUIS MIGUEL
+
+case 2:{
+     int filas2, columnas2;
+     cout<<"Digite el numero de filas: ";
+     cin>>filas2;
+     cout<<"Digite el numero de columnas: ";
+     cin>>columnas2;
+
+     int A[filas2][columnas2],B[filas2][columnas2],C[filas2][columnas2];
+     //Almacenamos elementos en la matriz
+     cout<<end1<<"MATRIZ 1 :";
+     for(int i=0;i<filas2;i++){
+     for(int j=0;j<columnas2;j++){
+     cout<<"Digite un numero en la MATRIZ 1 posicion ["<<i<<"]["<<j<<"]: ";
+     cin>>A[i][j];
+         }
+     {
+
+     cout<<end1<<"MATRIZ 2 :";
+     for(int i=0;i<filas2;i++){
+     for(int j=0;j<columnas2;j++){
+     cout<<"Digite un numero en la MATRIZ 2 posicion ["<<i<<"]["<<j<<"]: ";
+     cin>>B[i][j];
+         }
+     {
