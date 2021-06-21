@@ -1,21 +1,51 @@
-#include<iostream>
+//GPARTE DE GARCIA WILA MELANIE
+#include <iostream>
+#include <cstdlib>
+
 using namespace std;
-int main()
-{
-	int c=0;
-	float matriz1[10]={10,20,30,40,50,60,70,80,90,100};
-	float matriz2[10]={10,20,30,40,50,60,70,80,90,100};
-	float suma[10],resta[10],multiplicacion[10],division[10];
+int main(){
+	int opcion;
+	bool repetir = true;
 	
-	cout<<"\n";
-	cout<<"Demostracion de la matriz 1 y 2"<<endl;
-	cout<<"-------------------------------"<<endl;
-	for(int c=0;c<10;c++){
-		cout<<matriz1[c];
-		cout<<",";
-	}
-	cout<<endl;
-//GARCIA WILA MELANIE
+	do {
+	        system("cls");//limpia pantalla
+	        
+		cout << "\n\nMenu de Opciones" << endl;
+	        cout << "1. Creacion de  Matriz            1" << endl;
+	        cout << "2. Suma de 2 Matrices             2" << endl;
+	        cout << "3. Resta de 2 Matrices            3" << endl;
+	        cout << "4. Multiplicacion de 2 Matrices   4" << endl;
+	        cout << "5. Divicion de 2 Matrices         5" << endl;
+	        cout << "0. SALIR" << endl;
+	        
+	        cout << "\nIngrese una opcion: ";
+	        cin >> opcion;
+			switch (opcion) 
+			{
+		            case 1:{
+		            	int numeros[100][100], filas, columnas;
+						cout<<"Digite el numero de filas: ";
+						cin>>filas;
+						cout<<"Digite el numero de columnas: ";
+						cin>>columnas;
+						//Almacenamos elementos en la matriz
+						for(int i=0;i<filas;i++){
+						for(int j=0;j<columnas;j++){
+						cout<<"digite un numero en la posicion  ["<<i<<"]["<<j<<"]: ";
+						cin>>numeros[i][j];
+								}
+				
+						}		
+						for(int i=0;i<filas;i++){
+						for(int j=0;j<columnas;j++){
+						cout<<numeros[i][j];
+					
+						}
+						cout<<endl;
+						}
+						 system("pause>nul"); // Pausa 
+						break;
+					}
 	
 	return 0;
 }
