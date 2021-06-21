@@ -15,41 +15,7 @@ int main()
 		cout<<",";
 	}
 	cout<<endl;
-	for(int c=0;c<10;c++){
-		cout<<matriz2[c];
-		cout<<",";
-	}
-	cout<<endl;
-	cout<<"\n";
-	cout<<"Demostracion de la suma de la matriz 1 y 2"<<endl;
-	cout<<"------------------------------------------"<<endl;
-	for(int c=0;c<10;c++){
-		cout<<matriz1[c]+matriz2[c];
-		cout<<",";
-	}
-	cout<<endl;
-	cout<<"\n";
-	cout<<"Demostracion de la resta de la matriz 1 y 2"<<endl;
-	cout<<"-------------------------------------------"<<endl;
-	for(int c=0;c<10;c++){
-		cout<<matriz1[c]-matriz2[c];
-		cout<<",";
-	}
-	cout<<endl;
-	cout<<"\n";
-	cout<<"Demostracion de la multiplicacion de la matriz 1 y 2"<<endl;
-	cout<<"----------------------------------------------------"<<endl;
-	for(int c=0;c<10;c++){
-		cout<<matriz1[c]*matriz2[c];
-		cout<<",";
-	}
-	cout<<endl;
-	cout<<"\n";
-	cout<<"Demostracion de la division de la matriz 1 y 2"<<endl;
-	cout<<"----------------------------------------------"<<endl;
-	for(int c=0;c<10;c++){
-		cout<<matriz1[c]/matriz2[c];
-		cout<<",";
-	}
+//GARCIA WILA MELANIE
+	
 	return 0;
 }
