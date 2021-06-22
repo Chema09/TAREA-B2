@@ -76,3 +76,44 @@ case 2:{
      cin>>B[i][j];
          }
      {
+// MANZABA ESCALANTE ALBERTO MOISES 
+	     case 3:{
+		            	 int  filas2, columnas2;
+						cout<<"Digite el numero de filas: ";
+						cin>>filas2;
+						cout<<"Digite el numero de columnas: ";
+						cin>>columnas2;
+						
+						int A[filas2][columnas2],B[filas2][columnas2],C[filas2][columnas2];
+						//Almacenamos elementos en la matriz
+						cout<<endl<<"MATRIZ 1 :";
+						for(int i=0;i<filas2;i++){
+						for(int j=0;j<columnas2;j++){
+						cout<<"digite un numero en la MATRIZ 1 posicion  ["<<i<<"]["<<j<<"]: ";
+						cin>>A[i][j];
+							}
+						}		
+						
+						cout<<endl<<"MATRIZ 2 :";
+						for(int i=0;i<filas2;i++){
+						for(int j=0;j<columnas2;j++){
+						cout<<"digite un numero en la MATRIZ 2 posicion  ["<<i<<"]["<<j<<"]: ";
+						cin>>B[i][j];
+							}
+						}
+						
+						//PROSESO DE RESTA 
+						for(int i=0;i<filas2;i++){
+						for(int j=0;j<columnas2;j++){
+						C[i][j]=A[i][j]-B[i][j];
+							}
+						}
+						
+						for(int i=0;i<filas2;i++){
+						for(int j=0;j<columnas2;j++){
+						cout<<C[i][j];
+							}
+						cout<<endl;
+						}
+						 system("pause>nul"); // Pausa 
+						break;
